@@ -1,0 +1,49 @@
+.slider-container{
+    margin: 14%;
+    overflow-x: hidden;
+   
+    
+    .slider{
+        display: flex;
+        cursor: grab;
+    }
+    .item{
+        height: 40rem;
+        max-width: 30rem;
+        padding: 2rem;
+
+        
+    }
+    .item img{
+        pointer-events: none;
+        /* From https://css.glass */
+        /* From https://css.glass */
+        background: radial-gradient(135.94% 372.92% at -13.75% -12.36%, #081329 37.47%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+radial-gradient(112.91% 285.18% at -20.86% 2%, #31F0CF 0%, rgba(198, 135, 228, 0.631127) 0%, #31F0CF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+border: 2px solid;
+
+border-image-source: radial-gradient(112.91% 285.18% at -20.86% 2%, #31F0CF 0%, rgba(198, 135, 228, 0.631127) 0%, #31F0CF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+radial-gradient(135.94% 372.92% at -13.75% -12.36%, #081329 37.47%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+
+width: 300px;
+height: 300px;
+
+        
+    }
+
+    img{
+        width: 100px;
+    }
+    .slider{
+        display: flex;
+        cursor: grab;
+
+    }
+    .slider-container{
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+}

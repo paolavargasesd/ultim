@@ -1,7 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 * {
     margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
+	text-align: center;
+	position: relative;
+	
+		
+	
 }
-@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+body{
+	background-image: url(../src/assets/choose/planetsBackground.png);
+	background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+

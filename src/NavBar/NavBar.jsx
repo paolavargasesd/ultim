@@ -10,6 +10,7 @@ const NavBar = () => {
         <nav className='container__NavBar-navBar'>
             <Link to="/" ><span className="navBar_Link">Planets</span></Link>
             <Link to="/controlroom"><span className="navBar_Link">Control Room</span></Link>
+            <Link to="/ChooseThePlanet"><span className="navBar_Link">Choose The Planet</span></Link>
         </nav>  
     </header>
   )
