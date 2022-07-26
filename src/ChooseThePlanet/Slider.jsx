@@ -13,6 +13,7 @@ const Slider = () => {
     {images.map(image => (
       <motion.div key={image} className='item'> 
      <img src={image} alt="" />
+     <h1> Alpha</h1>
      </motion.div>
    ))}
 

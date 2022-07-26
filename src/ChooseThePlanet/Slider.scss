@@ -7,35 +7,37 @@
         display: flex;
         cursor: grab;
     }
+    .lengu{
+        color: white;
+        margin: -20px;
+    }
+    h1{
+        color: white;
+        font-size: 50px;
+        vertical-align: text-bottom;
+    }
     .item{
-        height: 40rem;
-        max-width: 30rem;
-        padding: 2rem;
+       
+        margin: 30px;
+        height: 30rem;
+        width: 100rem;
+        padding: 4px;
+        background: rgba(17, 70, 173, 0.28);
+border-radius: 26px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9px);
+
+border: 1px solid rgb(20, 136, 99);
+
 
         
     }
     .item img{
-        pointer-events: none;
-        /* From https://css.glass */
-        /* From https://css.glass */
-        background: radial-gradient(135.94% 372.92% at -13.75% -12.36%, #081329 37.47%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
-radial-gradient(112.91% 285.18% at -20.86% 2%, #31F0CF 0%, rgba(198, 135, 228, 0.631127) 0%, #31F0CF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
-radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-
-border: 2px solid;
-
-border-image-source: radial-gradient(112.91% 285.18% at -20.86% 2%, #31F0CF 0%, rgba(198, 135, 228, 0.631127) 0%, #31F0CF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
-radial-gradient(135.94% 372.92% at -13.75% -12.36%, #081329 37.47%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-
-
+        margin: -2%;
 width: 300px;
 height: 300px;
 
-        
-    }
 
-    img{
-        width: 100px;
     }
     .slider{
         display: flex;

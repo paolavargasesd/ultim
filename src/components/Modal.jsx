@@ -45,10 +45,12 @@ justify-content: center;
 const ContenedorModal = styled.div`
 width: 500px;
 min-height: 100px;
-background: #fff;
+background: rgb(20, 136, 99);
 position: relative;
 box-shadow: rgba (100,100,111, 0.2) 0px 7px 19px 0px;
-padding: 20px
+padding: 20px;
+transform: translateY(-65%);
+right: -120%;
 `;
 
 const EncabezadoModal = styled.div `
@@ -78,7 +80,7 @@ background: none;
 cursor: pointer;
 transition: .3s ease all;
 border-radius: 500px;
-color: #1766DC;
+color: red;
 
 &:hover {
   background: #f2f2f2;
